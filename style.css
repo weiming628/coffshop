@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  nav a:hover {
+    background-color: #6c757d;
+  }
+  nav a.active {
+    background-color: #212529;
+  }
+  main {
+    padding: 2rem;
+  }
+  .content-section {
+    display: none;
+  }
+  .content-section.active {
+    display: block;
+  }
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 50;
+  }
+  #c3chart {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  #c3chart, #lineChart {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  #contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* 欄位間距 */
+  }
+  
+  #contact label {
+    font-weight: bold;
+    
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width:100%;
+    box-sizing: border-box;
+    
+  }
+  
+  #contact text{
+    height: 100px;
+    resize: vertical;
+  }
+
+  #contact button {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 9px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  #contact button:hover {
+    background-color: #495057;
+  }
